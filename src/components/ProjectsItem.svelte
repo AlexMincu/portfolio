@@ -7,7 +7,7 @@
 <div class="w-full rounded-md border-2 border-stone-900 p-2 shadow-lg md:w-[23rem]">
 	<div class="flex flex-col justify-center gap-3 text-center align-middle">
 		<!-- Cover -->
-		<img class="mx-auto h-64 w-full object-cover" src={project.url} alt="Project Cover" />
+		<img class="mx-auto h-64 w-full object-cover" src={project.image_url} alt="Project Cover" />
 
 		<!-- Title -->
 		<div class="text-xl">{project.title}</div>

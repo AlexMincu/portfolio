@@ -5,7 +5,7 @@
 
 	const projects = [
 		{
-			url: 'src/lib/images/myfitnesslog.png',
+			image_url: '/projects/myfitnesslog.png',
 			title: 'MyFitnessLog',
 			description:
 				'MyFitnessLog is a fitness tracking web app designed to help users monitor their training routines. It was developed using modern technologies and cloud services - Supabase, Vercel',
@@ -23,7 +23,7 @@
 		},
 
 		{
-			url: 'src/lib/images/ebisu.jpeg',
+			image_url: '/projects/ebisu.jpeg',
 			title: 'Ebisu',
 			description:
 				'A fictional responsive eCommerce website. Used HTML, SCSS, and modern JavaScript for the Front-End and Node.js, and Express. js for the Back-End. Working on this project has provided me the opportunity to better understand the process of building a website.',
@@ -41,7 +41,7 @@
 		},
 
 		{
-			url: 'src/lib/images/championsfood.jpg',
+			image_url: '/projects/championsfood.jpg',
 			title: "Champion's Food",
 			description:
 				'A Windows application that simulates a Food Delivery service. It contains 7 different pages as well as automatically generated pages for every restaurant. Built using Java SE 15, utilizing Swing and SQL for a relational database.',
@@ -55,7 +55,7 @@
 		},
 
 		{
-			url: 'src/lib/images/arcanearts.png',
+			image_url: '/projects/arcanearts.png',
 			title: 'Arcane Arts',
 			description:
 				'A simple idle/clicker game made in C++ using the SFML library. The game is made from scratch, including the game engine. This is the first game I developed. It helped me understand how object-oriented programming works and how a more complex game would work.',
