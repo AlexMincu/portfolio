@@ -1,5 +1,5 @@
-<div>
-	<h2 class="text-2xl">Experience</h2>
+<div class="mb-24">
+	<h2 class="mb-4 text-center text-5xl uppercase tracking-widest opacity-40">Experience</h2>
 
 	<div class="mx-8 flex flex-col gap-6">
 		<div>

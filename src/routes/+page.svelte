@@ -12,13 +12,28 @@
 	<meta name="description" content="Alex Minculescu Portfolio website" />
 </svelte:head>
 
-<section
-	class="mx-auto mb-28 flex min-w-0 max-w-[48rem] flex-col justify-center gap-4 align-middle"
->
-	<Header />
-	<Skills />
-	<Education />
-	<Experience />
-	<Projects />
-	<Contact />
+<section class="mb-28">
+	<div class="mx-auto min-w-0 max-w-[48rem]">
+		<Header />
+	</div>
+
+	<div class="mx-auto min-w-0 max-w-[48rem]">
+		<Skills />
+	</div>
+
+	<div class="mx-auto min-w-0 max-w-[48rem]">
+		<Education />
+	</div>
+
+	<div>
+		<Projects />
+	</div>
+
+	<div class="mx-auto min-w-0 max-w-[48rem]">
+		<Experience />
+	</div>
+
+	<div class="mx-auto min-w-0 max-w-[48rem]">
+		<Contact />
+	</div>
 </section>
