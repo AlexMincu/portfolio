@@ -25,9 +25,7 @@
 		<Education />
 	</div>
 
-	<div>
-		<Projects />
-	</div>
+	<Projects />
 
 	<div class="mx-auto min-w-0 max-w-[48rem]">
 		<Experience />
