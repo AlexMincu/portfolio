@@ -5,12 +5,18 @@
 	import Experience from '../components/Experience.svelte';
 	import Projects from '../components/Projects.svelte';
 	import Contact from '../components/Contact.svelte';
+
+	import Tesseract from '../components/Tesseract.svelte';
 </script>
 
 <svelte:head>
 	<title>alMinculescu | Portfolio</title>
 	<meta name="description" content="Alex Minculescu Portfolio website" />
 </svelte:head>
+
+<section>
+	<Tesseract />
+</section>
 
 <section class="mb-28">
 	<div class="mx-auto min-w-0 max-w-[48rem]">

@@ -1,6 +1,10 @@
 <script>
 	// @ts-nocheck
 
+	/* Docs:
+        https://github.com/the-pudding/the-svelte-way/blob/main/src/components/episodes/e3/InView.svelte
+        https://blog.arnellebalane.com/the-intersection-observer-api-d441be0b088d 
+    */
 	import { onMount } from 'svelte';
 
 	let isVisible = false;
