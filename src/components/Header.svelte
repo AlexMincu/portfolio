@@ -1,8 +1,15 @@
 <script>
 	import InView from '../components/InView.svelte';
+	import Tesseract from './Tesseract.svelte';
 </script>
 
 <div class="flex h-screen items-center justify-center text-center">
+	<InView>
+		<div class="-translate-x-26 h-[300px] w-[300px] scale-75">
+			<Tesseract />
+		</div>
+	</InView>
+
 	<div class="h-fit">
 		<InView>
 			<h1 class="mb-2 font-mono text-5xl">Minculescu <span class="font-bold">Alexandru</span></h1>
