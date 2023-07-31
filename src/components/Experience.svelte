@@ -9,9 +9,9 @@
 
 		<h2 class="mb-4 text-center text-5xl uppercase tracking-widest opacity-40">Experience</h2>
 
-		<div class="mx-8 flex flex-col gap-6">
+		<div class="flex flex-col gap-6 md:mx-8">
 			<div>
-				<div class="grid grid-cols-2">
+				<div class="md:grid md:grid-cols-2">
 					<div class="text-lg font-light uppercase tracking-wide">PR Assistant</div>
 					<div class="text-end text-sm italic">Bucharest, RO</div>
 					<div class="font-semibold">HKR Media SRL</div>
@@ -30,7 +30,7 @@
 			</div>
 
 			<div>
-				<div class="grid grid-cols-2">
+				<div class="md:grid md:grid-cols-2">
 					<div class="text-lg font-light uppercase tracking-wide">QA Tester</div>
 					<div class="text-end text-sm italic">Bucharest, RO</div>
 					<div class="font-semibold">Electronic Arts</div>

@@ -3,7 +3,9 @@
 </script>
 
 <InView>
-	<div class="mb-[40vh] mt-[20vh] rounded-lg border-2 border-blue-500 bg-blue-100 p-10 text-lg">
+	<div
+		class="mb-[40vh] mt-[20vh] rounded-lg border-2 border-blue-500 bg-blue-100 py-4 text-lg md:p-10"
+	>
 		<h2 class="mb-6 text-center text-2xl">Get in Touch</h2>
 
 		<div class="mx-8">

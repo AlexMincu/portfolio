@@ -48,8 +48,12 @@
 	<div class="my-16">
 		<!-- MyFitnessLog -->
 		<InView>
-			<div class="mx-auto mb-16 grid h-[600px] w-full grid-cols-[45%_55%] xl:w-[1280px]">
-				<div class="mb-20 flex flex-col justify-center gap-4 pr-16 text-center align-middle">
+			<div
+				class="mx-auto mb-16 flex w-full flex-col overflow-hidden md:grid md:h-[600px] md:grid-cols-[45%_55%] xl:w-[1280px]"
+			>
+				<div
+					class="mb-20 flex flex-col justify-center gap-4 px-2 text-center align-middle md:pl-0 md:pr-16"
+				>
 					<div class="text-2xl uppercase tracking-wide">MyFitnessLog</div>
 					<div class="mb-2 text-justify text-stone-600">
 						MyFitnessLog is a fitness tracking web app designed to help users monitor their training
@@ -82,7 +86,7 @@
 					</div>
 				</div>
 
-				<div class="relative">
+				<div class="relative hidden md:block">
 					<img
 						class="absolute right-[15px] top-[50%] h-[80%] -translate-y-[50%] rounded-lg shadow-2xl"
 						src="/projects/myfitnesslog/myfitnesslog_tablet_preview.webp"
@@ -105,8 +109,10 @@
 
 		<!-- Ebisu -->
 		<InView>
-			<div class="mx-auto grid h-[600px] w-full grid-cols-[55%_45%] xl:w-[1280px]">
-				<div class="relative">
+			<div
+				class="mx-auto flex w-full flex-col overflow-hidden md:grid md:h-[600px] md:grid-cols-[55%_45%] xl:w-[1280px]"
+			>
+				<div class="relative hidden md:block">
 					<img
 						class="absolute right-0 top-[40%] h-[75%] -translate-y-[50%] rounded-lg shadow-2xl"
 						src="/projects/ebisu/ebisu_desktop_preview.webp"
@@ -120,7 +126,9 @@
 					/>
 				</div>
 
-				<div class="mb-20 flex flex-col justify-center gap-4 pl-16 text-center align-middle">
+				<div
+					class="mb-20 flex flex-col justify-center gap-4 px-2 text-center align-middle md:pl-16 md:pr-0"
+				>
 					<div class="text-2xl uppercase tracking-wide">Ebisu</div>
 					<div class="mb-2 text-justify text-stone-600">
 						A fictional responsive eCommerce website. Used HTML, SCSS, and modern JavaScript for the

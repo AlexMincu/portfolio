@@ -4,10 +4,10 @@
 	export let project;
 </script>
 
-<div class="h-[200px] w-full rounded-md shadow-xl">
-	<div class="grid h-full grid-cols-[35%_65%]">
+<div class="w-full rounded-md shadow-xl md:h-[200px]">
+	<div class="h-full md:grid md:grid-cols-[35%_65%]">
 		<!-- Cover -->
-		<div class="relative ml-auto h-full overflow-hidden">
+		<div class="relative ml-auto hidden h-full overflow-hidden md:block">
 			<img class="w-full object-cover" src={project.image_url} alt="Project Cover" />
 
 			<div class="absolute right-0 top-0 h-full w-[50px]">

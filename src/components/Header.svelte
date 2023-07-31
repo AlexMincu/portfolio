@@ -3,7 +3,9 @@
 	import Tesseract from './Tesseract.svelte';
 </script>
 
-<div class="flex h-screen items-center justify-center text-center">
+<div
+	class="flex h-screen w-full flex-col items-center justify-center overflow-hidden text-center md:flex-row md:overflow-visible"
+>
 	<InView>
 		<div class="-translate-x-26 h-[300px] w-[300px] scale-75">
 			<Tesseract />

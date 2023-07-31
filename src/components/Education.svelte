@@ -9,7 +9,7 @@
 
 		<h2 class="mb-2 text-center text-5xl uppercase tracking-widest opacity-40">Education</h2>
 
-		<div class="mx-10 grid grid-cols-[80%_20%]">
+		<div class="md:mx-10 md:grid md:grid-cols-[80%_20%]">
 			<div class="text-lg font-light">Computers and Information Technology</div>
 			<div class="text-end text-sm italic">Bucharest, RO</div>
 			<div class="font-bold">University of Bucharest</div>
