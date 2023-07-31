@@ -2,7 +2,7 @@
 	import InView from './InView.svelte';
 </script>
 
-<div class="mb-24">
+<div class="mb-[40vh] mt-[20vh]">
 	<InView>
 		<h2 class="mb-2 text-center text-5xl uppercase tracking-widest opacity-40">Education</h2>
 	</InView>

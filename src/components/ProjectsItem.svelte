@@ -4,7 +4,7 @@
 	export let project;
 </script>
 
-<div class="h-[200px] w-full rounded-md shadow-2xl">
+<div class="h-[200px] w-full rounded-md shadow-xl">
 	<div class="grid h-full grid-cols-[35%_65%]">
 		<!-- Cover -->
 		<div class="relative ml-auto h-full overflow-hidden">

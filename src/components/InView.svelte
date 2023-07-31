@@ -8,6 +8,7 @@
 	import { onMount } from 'svelte';
 
 	let isVisible = false;
+	export let card = false;
 	let element;
 
 	const handleIntersect = (e) => {
@@ -25,13 +26,16 @@
 </script>
 
 <div bind:this={element}>
-	<div class:isVisible class="opacity-0">
+	<div
+		class:isVisible
+		class="opacity-0 transition duration-[800ms] ease-in-out {card ? '-translate-x-[100vw]' : ''}"
+	>
 		<slot />
 	</div>
 </div>
 
 <style>
 	.isVisible {
-		@apply opacity-100 transition-opacity duration-[1000ms];
+		@apply translate-x-0 opacity-100;
 	}
 </style>

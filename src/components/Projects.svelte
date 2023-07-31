@@ -35,7 +35,7 @@
 	];
 </script>
 
-<div class="mb-24">
+<div class="mb-[40vh] mt-[20vh]">
 	<InView>
 		<h2
 			class="mx-auto mb-2 min-w-0 max-w-[48rem] text-center text-5xl uppercase tracking-widest opacity-40"
@@ -163,9 +163,9 @@
 		</h3>
 	</InView>
 
-	<div class="mx-auto flex min-w-0 max-w-[48rem] flex-col gap-4">
+	<div class="mx-auto flex min-w-0 max-w-[48rem] flex-col gap-6">
 		{#each projects as project}
-			<InView>
+			<InView card={true}>
 				<ProjectsItem {project} />
 			</InView>
 		{/each}
