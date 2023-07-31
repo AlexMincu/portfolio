@@ -6,7 +6,7 @@
 
 	const projects = [
 		{
-			image_url: '/projects/championsfood.jpg',
+			image_url: '/projects/championsfood.webp',
 			title: "Champion's Food",
 			description:
 				'A Windows application that simulates a Food Delivery service. It contains 7 different pages as well as automatically generated pages for every restaurant. Built using Java SE 15, utilizing Swing and SQL for a relational database.',
