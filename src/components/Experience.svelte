@@ -1,14 +1,15 @@
 <script>
 	import InView from './InView.svelte';
+	import Border from './Border.svelte';
 </script>
 
-<div class="mb-[40vh] mt-[20vh]">
-	<InView>
-		<h2 class="mb-4 text-center text-5xl uppercase tracking-widest opacity-40">Experience</h2>
-	</InView>
+<InView let:isVisible>
+	<div class="relative mb-[40vh] mt-[70vh] px-[5vh] py-[10vh]">
+		<Border {isVisible} />
 
-	<div class="mx-8 flex flex-col gap-6">
-		<InView>
+		<h2 class="mb-4 text-center text-5xl uppercase tracking-widest opacity-40">Experience</h2>
+
+		<div class="mx-8 flex flex-col gap-6">
 			<div>
 				<div class="grid grid-cols-2">
 					<div class="text-lg font-light uppercase tracking-wide">PR Assistant</div>
@@ -27,9 +28,7 @@
 					response through email and reliably solve people's problems.
 				</div>
 			</div>
-		</InView>
 
-		<InView>
 			<div>
 				<div class="grid grid-cols-2">
 					<div class="text-lg font-light uppercase tracking-wide">QA Tester</div>
@@ -45,6 +44,6 @@
 					logs, media files, and other information on how to reproduce them.
 				</div>
 			</div>
-		</InView>
+		</div>
 	</div>
-</div>
+</InView>

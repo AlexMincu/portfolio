@@ -30,7 +30,7 @@
 		class:isVisible
 		class="opacity-0 transition duration-[800ms] ease-in-out {card ? '-translate-x-[100vw]' : ''}"
 	>
-		<slot />
+		<slot {isVisible} />
 	</div>
 </div>
 

@@ -1,13 +1,14 @@
 <script>
 	import InView from './InView.svelte';
+	import Border from './Border.svelte';
 </script>
 
-<div class="mb-[50vh] mt-[20vh]">
-	<InView>
-		<h2 class="mb-4 text-center text-5xl uppercase tracking-widest opacity-40">Skills</h2>
-	</InView>
+<InView let:isVisible>
+	<div class="relative mb-[50vh] mt-[15vh] px-[5vh] py-[10vh]">
+		<Border {isVisible} />
 
-	<InView>
+		<h2 class="mb-4 text-center text-5xl uppercase tracking-widest opacity-40">Skills</h2>
+
 		<div class="mx-16 grid grid-cols-[150px_minmax(0,_1fr)] gap-x-4">
 			<div class="text-right font-bold">Programming</div>
 			<div>JavaScript, C/C++, Java, Python</div>
@@ -16,5 +17,5 @@
 			<div class="text-right font-bold">Tools & Database</div>
 			<div>Git, Bash, SQL, Prisma, Sequelize</div>
 		</div>
-	</InView>
-</div>
+	</div>
+</InView>
