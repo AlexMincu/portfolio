@@ -20,7 +20,7 @@
 		},
 
 		{
-			image_url: '/projects/arcanearts.png',
+			image_url: '/projects/arcanearts.webp',
 			title: 'Arcane Arts',
 			description:
 				'A simple idle/clicker game made in C++ using the SFML library. The game is made from scratch, including the game engine. This is the first game I developed. It helped me understand how object-oriented programming works and how a more complex game would work.',
@@ -85,18 +85,18 @@
 				<div class="relative">
 					<img
 						class="absolute right-[15px] top-[50%] h-[80%] -translate-y-[50%] rounded-lg shadow-2xl"
-						src="/projects/myfitnesslog/myfitnesslog_tablet_preview.png"
+						src="/projects/myfitnesslog/myfitnesslog_tablet_preview.webp"
 						alt=""
 					/>
 
 					<img
 						class="absolute left-[5%] top-[40%] h-[70%] -translate-y-[50%] rounded-lg shadow-2xl"
-						src="/projects/myfitnesslog/myfitnesslog_mobile_hero.png"
+						src="/projects/myfitnesslog/myfitnesslog_mobile_hero.webp"
 						alt=""
 					/>
 					<img
 						class="absolute left-0 top-[60%] h-[70%] -translate-y-[50%] rounded-lg shadow-2xl"
-						src="/projects/myfitnesslog/myfitnesslog_mobile_preview.png"
+						src="/projects/myfitnesslog/myfitnesslog_mobile_preview.webp"
 						alt=""
 					/>
 				</div>
@@ -109,13 +109,13 @@
 				<div class="relative">
 					<img
 						class="absolute right-0 top-[40%] h-[75%] -translate-y-[50%] rounded-lg shadow-2xl"
-						src="/projects/ebisu/ebisu_desktop_preview.png"
+						src="/projects/ebisu/ebisu_desktop_preview.webp"
 						alt=""
 					/>
 
 					<img
 						class="absolute left-0 top-[55%] h-[85%] -translate-y-[50%] rounded-lg shadow-2xl"
-						src="/projects/ebisu/ebisu_mobile_preview.png"
+						src="/projects/ebisu/ebisu_mobile_preview.webp"
 						alt=""
 					/>
 				</div>
