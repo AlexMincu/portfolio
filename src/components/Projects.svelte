@@ -75,7 +75,7 @@
 						<button
 							class="block rounded-xl bg-blue-700 px-6 py-3 font-bold text-white shadow-2xl hover:bg-blue-600"
 							target="_blank"
-							href="https://myfitnesslog.vercel.app/">Website</button
+							href="https://myfitnesslog.vercel.app/">Live Demo</button
 						>
 
 						<a
@@ -148,7 +148,7 @@
 						<a
 							class="block rounded-xl bg-blue-700 px-6 py-3 font-bold text-white shadow-2xl hover:bg-blue-600"
 							target="_blank"
-							href="https://ebisu-website.onrender.com/">Website</a
+							href="https://ebisu-website.onrender.com/">Live Demo</a
 						>
 
 						<a

@@ -18,7 +18,7 @@
 		</InView>
 
 		<InView>
-			<h2 class="mb-3 text-2xl">Web Developer</h2>
+			<h2 class="mb-3 text-2xl">Software Engineer</h2>
 		</InView>
 	</div>
 </div>
