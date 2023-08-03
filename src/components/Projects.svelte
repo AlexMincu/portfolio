@@ -73,13 +73,13 @@
 
 					<div class="flex flex-row justify-center gap-3 align-middle">
 						<button
-							class="block rounded-xl bg-blue-700 px-6 py-3 font-bold text-white shadow-2xl hover:bg-blue-600"
+							class="block rounded-xl bg-gradient-to-tl from-blue-400 to-blue-700 to-50% px-6 py-3 font-bold text-white shadow-lg shadow-blue-800/40 hover:to-90%"
 							target="_blank"
 							href="https://myfitnesslog.vercel.app/">Live Demo</button
 						>
 
 						<a
-							class="block rounded-xl bg-blue-700 px-6 py-3 font-bold text-white shadow-2xl hover:bg-blue-600"
+							class="block rounded-xl bg-gradient-to-tl from-blue-400 to-blue-700 to-50% px-6 py-3 font-bold text-white shadow-lg shadow-blue-800/40 hover:to-90%"
 							target="_blank"
 							href="https://github.com/AlexMincu/MyFitnessLog">Github</a
 						>
@@ -146,13 +146,13 @@
 
 					<div class="flex flex-row justify-center gap-3 align-middle">
 						<a
-							class="block rounded-xl bg-blue-700 px-6 py-3 font-bold text-white shadow-2xl hover:bg-blue-600"
+							class="block rounded-xl bg-gradient-to-tl from-blue-400 to-blue-700 to-50% px-6 py-3 font-bold text-white shadow-lg shadow-blue-800/40 hover:to-90%"
 							target="_blank"
 							href="https://ebisu-website.onrender.com/">Live Demo</a
 						>
 
 						<a
-							class="block rounded-xl bg-blue-700 px-6 py-3 font-bold text-white shadow-2xl hover:bg-blue-600"
+							class="block rounded-xl bg-gradient-to-tl from-blue-400 to-blue-700 to-50% px-6 py-3 font-bold text-white shadow-lg shadow-blue-800/40 hover:to-90%"
 							target="_blank"
 							href="https://github.com/AlexMincu/Ebisu-website">Github</a
 						>

@@ -46,7 +46,7 @@
 				<div class="flex flex-row justify-center gap-4 align-middle">
 					{#each project.links as link}
 						<a
-							class="block rounded-xl bg-blue-800 px-6 py-2 font-bold text-white shadow-md hover:bg-stone-700"
+							class="block rounded-xl bg-gradient-to-tl from-blue-400 to-blue-700 to-50% px-5 py-2 font-bold text-white shadow-lg shadow-blue-800/40 hover:to-90%"
 							target="_blank"
 							href={link.url}>{link.title}</a
 						>
