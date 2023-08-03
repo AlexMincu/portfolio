@@ -4,7 +4,7 @@
 </script>
 
 <InView let:isVisible>
-	<div class="relative mb-[40vh] mt-[70vh] px-[5vh] py-[10vh]">
+	<div class="relative mt-[20vh] px-[5vh] py-[10vh] md:mb-[40vh] md:mt-[70vh]">
 		<Border {isVisible} />
 
 		<h2 class="mb-4 text-center text-5xl uppercase tracking-widest opacity-40">Experience</h2>

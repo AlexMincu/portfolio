@@ -35,7 +35,7 @@
 	];
 </script>
 
-<div class="mb-[40vh] mt-[20vh]">
+<div class="mt-[20vh] md:mb-[40vh]">
 	<InView>
 		<h2
 			class="mx-auto mb-2 min-w-0 max-w-[48rem] text-center text-5xl uppercase tracking-widest opacity-40"

@@ -4,7 +4,7 @@
 
 <InView>
 	<div
-		class="mb-[40vh] mt-[20vh] rounded-lg border-2 border-blue-500 bg-blue-100 py-4 text-lg md:p-10"
+		class="mb-[10vh] mt-[20vh] rounded-lg border-2 border-blue-500 bg-blue-100 py-4 text-lg md:mb-[40vh] md:p-10"
 	>
 		<h2 class="mb-6 text-center text-2xl">Get in Touch</h2>
 

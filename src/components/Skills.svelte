@@ -5,7 +5,7 @@
 </script>
 
 <InView let:isVisible>
-	<div class="relative mb-[50vh] mt-[15vh] py-[10vh] md:px-[5vh]">
+	<div class="relative mt-[15vh] py-[10vh] md:mb-[50vh] md:px-[5vh]">
 		<Border {isVisible} />
 
 		<h2 class="mb-4 text-center text-5xl uppercase tracking-widest opacity-40">Skills & Tools</h2>
