@@ -6,6 +6,24 @@
 
 	const projects = [
 		{
+			image_url: '/projects/rps.webp',
+			title: 'Rock Paper Scissors',
+			description:
+				'A simple game built with HTML, CSS, and vanilla JavaScript for the Foundations Course of The Odin Project Online Resource.',
+			links: [
+				{
+					title: 'Live Demo',
+					url: 'https://alexmincu.github.io/Odin_RPS/'
+				},
+				{
+					title: 'Github',
+					url: 'https://github.com/AlexMincu/Odin_RPS'
+				}
+			],
+			technologies: ['HTML', 'CSS', 'JavaScript']
+		},
+
+		{
 			image_url: '/projects/championsfood.webp',
 			title: "Champion's Food",
 			description:
@@ -23,7 +41,7 @@
 			image_url: '/projects/arcanearts.webp',
 			title: 'Arcane Arts',
 			description:
-				'A simple idle/clicker game made in C++ using the SFML library. The game is made from scratch, including the game engine. This is the first game I developed. It helped me understand how object-oriented programming works and how a more complex game would work.',
+				'A idle/clicker game made in C++ using the SFML library. The game is made from scratch, including the game engine. This is the first game I developed. It helped me understand how object-oriented programming works and how a more complex game would work.',
 			links: [
 				{
 					title: 'Github',
@@ -31,6 +49,20 @@
 				}
 			],
 			technologies: ['C++', 'OOP', 'SFML']
+		},
+
+		{
+			image_url: '/projects/pagoda.webp',
+			title: 'AutoCAD 3D Model',
+			description:
+				"I've created a 3D model of a traditional Japanese Pagoda using AutoCAD, trying to preserve its intricate beauty and cultural significance.",
+			links: [
+				{
+					title: 'View Model',
+					url: 'https://grabcad.com/library/japanese-pagoda-1'
+				}
+			],
+			technologies: ['AutoCAD']
 		}
 	];
 </script>
