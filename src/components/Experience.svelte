@@ -38,10 +38,10 @@
 				</div>
 
 				<div class="mt-4 text-justify">
-					I worked for a couple of months as a quality assurance tester for games provided by
-					Electronic Arts. I learned the procedures of testing bugs by analyzing and evaluating test
-					cases. I had to document and add the bugs found into the tracking bugs software; provide
-					logs, media files, and other information on how to reproduce them.
+					I worked as a quality assurance tester for games provided by Electronic Arts. I learned
+					the procedures of testing bugs by analyzing and evaluating test cases. I was responsible
+					for documenting and adding the bugs I found to Jira; provide logs, media files, and the
+					steps to reproduce them.
 				</div>
 			</div>
 		</div>

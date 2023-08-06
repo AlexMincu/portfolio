@@ -27,7 +27,7 @@
 			image_url: '/projects/championsfood.webp',
 			title: "Champion's Food",
 			description:
-				'A Windows application that simulates a Food Delivery service. It contains 7 different pages as well as automatically generated pages for every restaurant. Built using Java SE 15, utilizing Swing and SQL for a relational database.',
+				"Champion's Food is a Windows application that simulates a Food Delivery service. It contains 7 different pages as well as automatically generated pages for every restaurant. Built using Java SE 15, utilizing Swing and SQL for a relational database.",
 			links: [
 				{
 					title: 'Github',
@@ -41,7 +41,7 @@
 			image_url: '/projects/arcanearts.webp',
 			title: 'Arcane Arts',
 			description:
-				'A idle/clicker game made in C++ using the SFML library. The game is made from scratch, including the game engine. This is the first game I developed. It helped me understand how object-oriented programming works and how a more complex game would work.',
+				'Arcane Arts is an idle/clicker game made in C++ using the SFML library. The game is made from scratch, including the game engine. I developed this game with the purpose of understanding how object‑oriented programming works and how a more complex game would be built.',
 			links: [
 				{
 					title: 'Github',
@@ -89,25 +89,27 @@
 					<div class="text-2xl uppercase tracking-wide">MyFitnessLog</div>
 					<div class="mb-2 text-justify text-stone-600">
 						MyFitnessLog is a fitness tracking web app designed to help users monitor their training
-						routines. It was developed using modern technologies and cloud services - Supabase,
-						Vercel
+						routines. It was developed using modern technologies and cloud services.
 					</div>
 
 					<div class="mb-2 flex flex-row flex-wrap justify-center gap-2 align-middle">
 						<div class="rounded-md border border-blue-500 px-2 py-1 text-sm italic">SvelteKit</div>
+						<div class="rounded-md border border-blue-500 px-2 py-1 text-sm italic">TypeScript</div>
 						<div class="rounded-md border border-blue-500 px-2 py-1 text-sm italic">SkeletonUI</div>
 						<div class="rounded-md border border-blue-500 px-2 py-1 text-sm italic">
 							TailwindCSS
 						</div>
 						<div class="rounded-md border border-blue-500 px-2 py-1 text-sm italic">PostgreSQL</div>
 						<div class="rounded-md border border-blue-500 px-2 py-1 text-sm italic">Prisma</div>
+						<div class="rounded-md border border-blue-500 px-2 py-1 text-sm italic">Vercel</div>
+						<div class="rounded-md border border-blue-500 px-2 py-1 text-sm italic">Supabase</div>
 					</div>
 
 					<div class="flex flex-row justify-center gap-3 align-middle">
-						<button
+						<a
 							class="block rounded-xl bg-gradient-to-tl from-blue-400 to-blue-700 to-50% px-6 py-3 font-bold text-white shadow-lg shadow-blue-800/40 hover:to-90%"
 							target="_blank"
-							href="https://myfitnesslog.vercel.app/">Live Demo</button
+							href="https://myfitnesslog.vercel.app/">Live Demo</a
 						>
 
 						<a
@@ -163,15 +165,16 @@
 				>
 					<div class="text-2xl uppercase tracking-wide">Ebisu</div>
 					<div class="mb-2 text-justify text-stone-600">
-						A fictional responsive eCommerce website. Used HTML, SCSS, and modern JavaScript for the
-						Front-End and Node.js, and Express. js for the Back-End. Working on this project has
-						provided me the opportunity to better understand the process of building a website.
+						Ebisu is a responsive eCommerce website. This project was created for my University’s
+						Web Development course. Working on this project has provided me the opportunity to
+						better understand the process of building a website.
 					</div>
 
 					<div class="mb-2 flex flex-row flex-wrap justify-center gap-2 align-middle">
 						<div class="rounded-md border border-blue-500 px-2 py-1 text-sm italic">HTML</div>
-						<div class="rounded-md border border-blue-500 px-2 py-1 text-sm italic">CSS</div>
 						<div class="rounded-md border border-blue-500 px-2 py-1 text-sm italic">SCSS</div>
+						<div class="rounded-md border border-blue-500 px-2 py-1 text-sm italic">JavaScript</div>
+						<div class="rounded-md border border-blue-500 px-2 py-1 text-sm italic">Node.js</div>
 						<div class="rounded-md border border-blue-500 px-2 py-1 text-sm italic">Express.js</div>
 						<div class="rounded-md border border-blue-500 px-2 py-1 text-sm italic">PostgreSQL</div>
 					</div>
