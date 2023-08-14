@@ -10,7 +10,7 @@
 
 		<h2 class="mb-4 text-center text-5xl uppercase tracking-widest opacity-40">Skills & Tools</h2>
 
-		<div class="mx-5 grid grid-cols-3 gap-y-2 md:grid-cols-6">
+		<div class="mx-8 grid grid-cols-3 gap-x-4 gap-y-2 md:mx-5 md:grid-cols-6 md:gap-x-0">
 			<SkillsItem imgUrl="/skills/cpp.png" title="C/C++" />
 
 			<SkillsItem imgUrl="/skills/java.png" title="Java" />

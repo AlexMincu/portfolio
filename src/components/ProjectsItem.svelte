@@ -4,13 +4,17 @@
 	export let project;
 </script>
 
-<div class="w-full rounded-md shadow-xl md:h-[200px]">
+<div class="mx-auto w-[90%] rounded-md shadow-xl md:h-[200px] md:w-full">
 	<div class="h-full md:grid md:grid-cols-[35%_65%]">
 		<!-- Cover -->
-		<div class="relative ml-auto hidden h-full overflow-hidden md:block">
-			<img class="w-full object-cover" src={project.image_url} alt="Project Cover" />
+		<div class="relative ml-auto h-full overflow-hidden">
+			<img
+				class="mx-auto h-full w-[90%] rounded-md object-cover md:w-full md:rounded-none"
+				src={project.image_url}
+				alt="Project Cover"
+			/>
 
-			<div class="absolute right-0 top-0 h-full w-[50px]">
+			<div class="absolute right-0 top-0 hidden h-full w-[50px] md:block">
 				<div
 					class="absolute left-0 top-0 h-0 w-0 border-x-[25px] border-t-[100px] border-x-transparent border-t-blue-700 opacity-70"
 				/>
@@ -32,7 +36,7 @@
 
 			<div class="text-justify text-sm text-stone-600">{project.description}</div>
 
-			<div class="flex flex-row items-center justify-center gap-6">
+			<div class="flex flex-col items-center justify-center gap-6 md:flex-row">
 				<!-- Technologies -->
 				<div class="flex flex-row flex-wrap justify-center gap-2 align-middle">
 					{#each project.technologies as technology}
